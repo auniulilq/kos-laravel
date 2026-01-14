@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Tambahkan setelah @tailwind directives */
+@import 'brutalism.css';

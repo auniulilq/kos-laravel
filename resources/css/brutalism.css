@@ -1,0 +1,104 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --yellow: #FFFF00;
+    --red: #FF0000;
+    --blue: #0000FF;
+    --green: #00FF00;
+    --purple: #FF00FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace !important;
+    background: var(--white) !important;
+    color: var(--black) !important;
+}
+
+/* Override Tailwind */
+.brutalist-input {
+    border: 4px solid var(--black) !important;
+    padding: 12px !important;
+    font-family: 'Courier New', monospace !important;
+    font-size: 16px !important;
+    background: var(--white) !important;
+    border-radius: 0 !important;
+}
+
+.brutalist-input:focus {
+    outline: none !important;
+    background: var(--yellow) !important;
+    box-shadow: 4px 4px 0 var(--black) !important;
+}
+
+.brutalist-btn {
+    background: var(--yellow) !important;
+    border: 4px solid var(--black) !important;
+    padding: 12px 24px !important;
+    font-family: 'Courier New', monospace !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    transition: all 0.1s !important;
+    border-radius: 0 !important;
+    color: var(--black) !important;
+}
+.brutalist-btn-primary {
+    background: var(--blue) !important;
+    color: var(--white) !important;
+}
+.brutalist-btn:hover {
+    transform: translate(4px, 4px) !important;
+    box-shadow: none !important;
+}
+
+.brutalist-card {
+    background: var(--white) !important;
+    border: 4px solid var(--black) !important;
+    padding: 30px !important;
+    box-shadow: 8px 8px 0 var(--black) !important;
+    border-radius: 0 !important;
+}
+
+.navbar-brutalism {
+    background: var(--black) !important;
+    border-bottom: 4px solid var(--yellow) !important;
+    padding: 20px !important;
+}
+
+.navbar-brutalism a {
+    color: var(--white) !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    border: 2px solid var(--white) !important;
+    padding: 8px 16px !important;
+    font-family: 'Courier New', monospace !important;
+}
+
+.navbar-brutalism a:hover {
+    background: var(--yellow) !important;
+    color: var(--black) !important;
+    border-color: var(--yellow) !important;
+}
+
+.alert-brutalism {
+    border: 4px solid var(--black) !important;
+    padding: 15px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+
+.alert-success {
+    background: var(--green) !important;
+}
+
+.alert-error {
+    background: var(--red) !important;
+    color: var(--white) !important;
+}
